@@ -1,16 +1,64 @@
-# React + Vite
+# 🕌 Jadwal Sholat Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website ini merupakan aplikasi berbasis web yang digunakan untuk menampilkan **jadwal sholat berdasarkan beberapa kota**.  
+Aplikasi ini dibuat menggunakan **React + Vite** dengan tampilan modern menggunakan **Tailwind CSS**.
 
-Currently, two official plugins are available:
+🔗 **Live Website:**  
+👉 https://jadwal-sholat-2or.pages.dev/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Fitur Utama
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Menampilkan jadwal sholat (Subuh, Dzuhur, Ashar, Maghrib, Isya)
+- Pilihan beberapa kota
+- Tampilan responsif (mobile friendly)
+- UI modern dan ringan
+- Performa cepat
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+### ⚛️ React
+Library JavaScript untuk membangun antarmuka pengguna berbasis komponen.
+
+### ⚡ Vite
+Build tool modern dengan performa cepat dan fitur Hot Module Replacement (HMR).
+
+### 🎨 Tailwind CSS
+Framework CSS utility-first untuk membuat desain yang responsif dan modern.
+
+### 🧹 ESLint
+Digunakan untuk menjaga kualitas dan konsistensi kode.
+
+---
+
+## 📂 Struktur Project
+jadwal-sholat/
+│
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── tailwind.config.js
+
+
+---
+
+## 🚀 Cara Menjalankan Project Secara Lokal
+
+1. Clone repository
+
+```bash
+git clone https://github.com/username/jadwal-sholat.git
+
+cd jadwal-sholat
+npm install
+npm run dev
+http://localhost:5173
